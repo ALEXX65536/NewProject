@@ -5,7 +5,7 @@
 1. **Клонировать репозиторий**:
 
 ```bash
-git clone <URL_репозитория>
+git clone <https://github.com/ALEXX65536/NewProject>
 cd my-app
 ```
 
