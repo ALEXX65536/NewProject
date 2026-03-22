@@ -28,13 +28,7 @@ npm run build
 npm run start
 ```
 
-5. **Запуск линтера**:
-
-```bash
-npm run lint
-```
-
-6. **Запуск тестов**:
+5. **Запуск тестов**:
 
 ```bash
 npm run test
