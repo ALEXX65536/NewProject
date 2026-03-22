@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Мини-приложение "Список задач"
 
-## Getting Started
+## Установка и запуск проекта
 
-First, run the development server:
+1. **Клонировать репозиторий**:
+
+```bash
+git clone <URL_репозитория>
+cd my-app
+```
+
+2. **Установить зависимости**:
+
+```bash
+npm install
+```
+
+3. **Запустить в режиме разработки (приложение будет доступно по адресу: http://localhost:3000)**:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. **Сборка проекта**:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+npm run build
+npm run start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+5. **Запуск линтера**:
 
-## Learn More
+```bash
+npm run lint
+```
 
-To learn more about Next.js, take a look at the following resources:
+6. **Запуск тестов**:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run test
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Используемые технологии
 
-## Deploy on Vercel
+Next.js – React-фреймворк для серверного рендеринга и статической генерации.
+React – библиотека для построения пользовательских интерфейсов.
+Bootstrap 5 – CSS-фреймворк для быстрого построения адаптивного интерфейса.
+Sass – препроцессор CSS для более удобной работы со стилями.
+Webpack – сборщик модулей (используется для сборки проекта по умолчанию).
+Lodash.debounce – утилита для оптимизации вызова функций, например, при вводе текста в поиск.
+Jest и React Testing Library – инструменты для тестирования компонентов.
+Babel – транспайлер для поддержки современного JavaScript и JSX.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
